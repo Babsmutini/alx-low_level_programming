@@ -6,17 +6,21 @@
  */
 int main(void)
 {
-int ch;
+	int i;
 
-for (ch = 0; ch <= 9; ch++)
-{
-	putchar(ch + '0');
-	if (ch != 9)
+	for (i = 0; i < 10 ; i++)
 	{
-		putchar(',');
-		putchar(' ');
+		putchar(i + '0');
+
+		if (i != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
 	}
+
 	putchar('\n');
+
 	return (0);
-}
-}
+}}
