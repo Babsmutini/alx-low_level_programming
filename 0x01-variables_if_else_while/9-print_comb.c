@@ -16,5 +16,7 @@ for (ch = 0; ch <= 9; ch++)
 		putchar(',');
 		putchar(' ');
 	}
+	putchar('\n');
+	return (0);
 }
 }
