@@ -1,5 +1,5 @@
-#ifndef HOLBERTON
-#define HOLBERTON
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 int _putchar(char);
 
