@@ -14,9 +14,8 @@ char *_strcat(char *dest, char *src)
 
 	longdest = 0;
 
-	while (dest[longdest] != '\0')
+	for (longdest = 0; dest[longdest] != '\0'; longdest++)
 	{
-		longdest++;
 	}
 	/*the first element of source added to the end of dest*/
 	for (j = 0; src[j] != '\0'; j++)
