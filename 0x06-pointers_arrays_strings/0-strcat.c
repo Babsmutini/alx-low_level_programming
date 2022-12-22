@@ -12,8 +12,6 @@ char *_strcat(char *dest, char *src)
 	int longdest;
 	int j;
 
-	longdest = 0;
-
 	for (longdest = 0; dest[longdest] != '\0'; longdest++)
 	{
 	}
